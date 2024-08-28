@@ -1,0 +1,47 @@
+.rounded-theme {
+  border-radius: 20px 0 20px 0;
+}
+.rounded-theme:hover {
+  opacity: 0.6;
+}
+.border-hr {
+  border: 1px solid red;
+}
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+.rounded-every-look {
+  border-radius: 4px 8px 4px 8px;
+}
+.proposal-mb-37 {
+  margin-bottom: 37px;
+}
+.proposal-pt-67 {
+  padding-top: 37px;
+}
+.me-6 {
+  margin-right: 6px;
+}
+.radius-4 {
+  border-radius: 4px;
+}
+.content-linear-gradient {
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+  width: 100%;
+  height: 100%;
+}
+.reg-text {
+  height: 24px;
+  width: 200px;
+}
+.reg-decorate {
+  display: flex;
+  flex-direction: row;
+}
+.reg-decorate::before,.reg-decorate::after {
+  content: "";
+  flex: 1 1;
+  border-bottom: 2px solid $gray-300;
+  margin: auto;
+}

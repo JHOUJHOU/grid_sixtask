@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200..900&display=swap');
+@import "bootstrap/scss/functions";
+@import "./helpers/variables";
+@import "bootstrap/scss/variables-dark"; // utilities
+@import "bootstrap/scss/maps";   // utilities
+@import "bootstrap/scss/mixins"; // utilities
+@import "./helpers/utilities";
+@import "bootstrap/scss/bootstrap";
+@import "bootstrap/scss/utilities/api";
+
+@import './helpers/reset.scss';
+@import './helpers/mixin.scss';
+
+@import './pages/pages.scss';
+@import './helpers/backgroud.scss';
