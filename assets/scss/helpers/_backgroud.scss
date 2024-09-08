@@ -13,7 +13,7 @@
   background-size: cover;
   background-position: center center;
   height: 84px;
-  @include phone() {
+  @include pad() {
     background: url("/assets/images/theme-1.png") no-repeat;
     height: 200px;
   }
@@ -23,7 +23,7 @@
   background-size: cover;
   background-position: center center;
   height: 84px;
-  @include phone() {
+  @include pad() {
     background: url("/assets/images/theme-1.png") no-repeat;
     height: 200px;
   }
@@ -33,7 +33,7 @@
   background-size: cover;
   background-position: center center;
   height: 84px;
-  @include phone() {
+  @include pad() {
     background: url("/assets/images/theme-2.png") no-repeat;
     height: 200px;
   }
@@ -43,7 +43,7 @@
   background-size: cover;
   background-position: center center;
   height: 84px;
-  @include phone() {
+  @include pad() {
     background: url("/assets/images/theme-3.png") no-repeat;
     height: 200px;
   }
@@ -53,7 +53,7 @@
   background-size: cover;
   background-position: center center;
   height: 84px;
-  @include phone() {
+  @include pad() {
     background: url("/assets/images/theme-4.png") no-repeat;
     height: 200px;
   }
@@ -63,7 +63,7 @@
   background-size: cover;
   background-position: center center;
   height: 84px;
-  @include phone() {
+  @include pad() {
     background: url("/assets/images/theme-5.png") no-repeat;
     height: 200px;
   }
@@ -73,7 +73,7 @@
   background-size: cover;
   background-position: center center;
   height: 84px;
-  @include phone() {
+  @include pad() {
     background: url("/assets/images/theme-6.png") no-repeat;
     height: 200px;
   }
@@ -83,7 +83,7 @@
   background-size: cover;
   background-position: center center;
   height: 84px;
-  @include phone() {
+  @include pad() {
     background: url("/assets/images/theme-7.png") no-repeat;
     height: 200px;
   }
@@ -93,7 +93,7 @@
   background-size: cover;
   background-position: center center;
   height: 84px;
-  @include phone() {
+  @include pad() {
     background: url("/assets/images/theme-8.png") no-repeat;
     height: 200px;
   }
@@ -125,12 +125,14 @@
 }
 .smile-single {
   background: url("/assets/images/bg-2-sm.png") no-repeat;
+  background-size: contain;
+  background-position: center center;
   width: 160px;
   height: 104px;
-  @include phone() {
+  @include pad() {
     background: url("/assets/images/bg-2.png") no-repeat;
-    height: 300px;
-    width: 196px;
+    height: 196px;
+    width: 300px;
   }
 }
 .every-look-one {
